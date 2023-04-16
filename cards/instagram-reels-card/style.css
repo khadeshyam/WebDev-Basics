@@ -1,0 +1,35 @@
+
+.reels-card{
+   margin:20px auto;
+   position: relative;
+}
+.reels-card .image-container{
+      width:100%;
+      height:90vh;
+      text-align: center;
+}
+.image-container img{
+    width:30%;
+    height:100%;
+}
+
+.heading{
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    left:35vw;
+    top:0;
+
+}
+.icons{
+    position:absolute;
+    color: white;
+    left:60vw;
+    bottom:1vh;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    font-size:2rem;
+    color:azure;
+    cursor: pointer;
+}
